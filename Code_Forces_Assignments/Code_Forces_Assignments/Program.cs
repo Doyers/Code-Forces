@@ -25,7 +25,7 @@ namespace Code_Forces_Assignments
             squareSizeX = lenghtSquare % brickSize == 0? lenghtSquare / brickSize : (lenghtSquare / brickSize) +1;
             squareSizeY = widthSquare % brickSize == 0? widthSquare / brickSize : (widthSquare / brickSize) +1;
 
-            Console.WriteLine(squareSizeX * squareSizeY);
+            Console.WriteLine((long)squareSizeX * (long)squareSizeY);
             Console.Read();
         }
     }
